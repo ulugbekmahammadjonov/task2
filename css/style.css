@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.site-main{
+    background-image: url("/images/background.jpg");
+    height: 550px;
+}
+.site-main-content{
+    position: relative;
+    background: #fff;
+    background-position: center;
+    width: 300px;
+    margin: auto;
+    top:100px;
+    border-radius: 5px;
+}
+.content-title-text{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 0;
+    padding: 20px 0;
+}
+.site-content-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.site-content-item{
+    display: flex;
+    align-items: center;
+    border: 1px solid #666;
+    border-left: none;
+    border-right: none;
+   
+}
+.site-content-item:not(:last-child){
+    border-bottom: none;
+}
+.site-content-item:hover{
+    background: cornsilk;
+}
+
+.mastercard-check {
+    margin-left: auto;
+    
+    
+}
+.content-link{
+    margin-left: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    color: #222;
+
+}
+
+.site-main-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #7297EF;
+    padding: 12px 0;
+}
+.site-main-link:hover{
+    opacity: 0.9;
+
+}
+.site-main-link:active{
+    border: 2px solid #7297EF;
+}
+.site-link{
+    
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+  
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
